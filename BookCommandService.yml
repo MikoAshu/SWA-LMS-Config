@@ -1,13 +1,9 @@
-server:
-  port: 0
 
 spring:
   application:
     name: BookCommandService
   data:
     mongodb:
-      #      username: root
-      #      password: example
       host: localhost
       port: 27017
       database: bookCommandDb
